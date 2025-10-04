@@ -1,8 +1,9 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME:Norgie Caceres
+# DATE: 10/3/2025
+# BRIEF DESCRIPTION:This script will ask for users input and if the answer is not correctly 
+# it will not give a compliment.
 
 
 
@@ -15,8 +16,16 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+right_word = "yes"
 
+user_answer = input("Would you like a compliment? ")
 
+if user_answer == right_word:
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+
+print("Thank you for playing.")
 
 
 
@@ -71,7 +80,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+I did not struggle with this one.
 
 
 
